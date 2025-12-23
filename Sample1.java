@@ -7,7 +7,7 @@ class Sample1{
         char ch1 = str.charAt(0);
         char ch2 = str.charAt(1);
         int len = str.length();
-        int len3 = str.length();
+        int len4 = str.length();
 
         System.out.println(str + "の１番目の文字は" + ch1 + "です");
         System.out.println(str + "の２番目の文字は" + ch2 + "です");
