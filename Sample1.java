@@ -3,12 +3,13 @@ class Sample1{
 
         String str = "HELLO";
 
+        
         char ch1 = str.charAt(0);
         char ch2 = str.charAt(1);
         int len = str.length();
 
-        System.out.println(str + "‚Ì‚P”Ô–Ú‚Ì•¶š‚Í" + ch1 + "‚Å‚·");
-        System.out.println(str + "‚Ì‚Q”Ô–Ú‚Ì•¶š‚Í" + ch2 + "‚Å‚·");
-        System.out.println(str + "‚Ì’·‚³‚Í" + len + "‚Å‚·");
+        System.out.println(str + "ã®ï¼‘ç•ªç›®ã®æ–‡å­—ã¯" + ch1 + "ã§ã™");
+        System.out.println(str + "ã®ï¼’ç•ªç›®ã®æ–‡å­—ã¯" + ch2 + "ã§ã™");
+        System.out.println(str + "ã®é•·ã•ã¯" + len + "ã§ã™");
     }
 }
